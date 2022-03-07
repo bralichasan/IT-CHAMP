@@ -1,0 +1,57 @@
+.kartica {
+  width: 330px;
+  height: 360px;
+  border: 2px solid #6c6e72;
+  border-radius: 15px;
+  background-color: #1d1d25;
+  margin: 150px auto;
+}
+
+.logo {
+  margin: 25px;
+  color: white;
+  font-size: 25px;
+}
+
+h3 {
+  color: white;
+  margin: 0px;
+  margin-left: 25px;
+  margin-right: 40px;
+}
+
+p {
+  color: #9faed7;
+  margin: 0px;
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+img {
+  width: 310px;
+  height: 150px;
+  border-radius: 15px;
+  margin: 10px 0px 0px 10px;
+}
+
+.fotter {
+  margin-top: 15px;
+  color: #abaecd;
+}
+
+.fotter .strelica {
+  padding-left: 50px;
+}
+
+.fotter .komentar {
+  padding-left: 56px;
+}
+
+.fotter .cuvanje {
+  padding-left: 70px;
+}
+
+i .strelica {
+  font-size: 12px;
+}
