@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #663399;
+}
+
+section {
+  position: relative;
+  top: 50px;
+  right: 105px;
+  text-align: center;
+  display: block;
+}
+
+div {
+  width: 210px;
+  height: 580px;
+  background-color: white;
+  display: inline-block;
+  animation-duration: 6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  position: absolute;
+  transform-origin: center 90%;
+  border-radius: 10px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: 512px;
+  left: 77px;
+  z-index: 7;
+}
+
+.prvi {
+  background-color: #815a8f;
+  animation-name: anim1;
+  z-index: 1;
+}
+
+@keyframes anim1 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-75deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.drugi {
+  background-color: #6730ec;
+  animation-name: anim2;
+  z-index: 2;
+}
+
+@keyframes anim2 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-45deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.treci {
+  background-color: #9ed763;
+  animation-name: anim3;
+  z-index: 3;
+}
+
+@keyframes anim3 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(-15deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.cetvrti {
+  background-color: #fbd400;
+  animation-name: anim4;
+  z-index: 4;
+}
+
+@keyframes anim4 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(15deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+.peti {
+  background-color: #ff9000;
+  animation-name: anim5;
+  z-index: 5;
+}
+
+@keyframes anim5 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(45deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+.sesti {
+  background-color: orangered;
+  animation-name: anim6;
+  z-index: 6;
+}
+
+@keyframes anim6 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(75deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
